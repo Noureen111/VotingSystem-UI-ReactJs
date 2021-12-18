@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.chooseDiv{
+  height: 100vh;
+  /* padding: 20% 40px 0px 40px !important; */
+  padding: 60px 23%;
+  background-color: #f5ddbe !important;
+  /* changed this */
+  /* background-color: #f9e4c8; */
+}
+
+.space{
+  margin-top: 100px;
+}
+
+.App{
+  background-color: #f5ddbe;
+  /* height: 100vh; */
+}
+
+.navBackground{
+  /* background-color: #DBD0C0; */
+  background-color: rgb(88, 84, 84);
+  color: white;
+}
+
+.appBackground{
+  padding: 60px 23%;
+}
+
+@media only screen and (max-width: 850px){
+  .appBackground{
+    padding: 60px;
+  }
+
+  .chooseDiv{
+    padding: 60px;
+  }
+}
+
+.jumbotron{
+  background-color: #FAEEE0 !important;
+  /* color: rgb(131, 121, 121) ; */
+  color: rgb(110, 102, 102);
+  box-shadow: 3px 3px 4px rgb(223, 209, 209) !important;
+}
+
+.display-4{
+ font-size: 44px !important;
+ margin-bottom: 20px;
+}
+
+.jumbotronPara{
+  color: rgb(150, 132, 132) !important;
+  text-align: justify;
+}
+
+li{
+  margin-left: 20px;
+  text-align: left;
+  color: rgb(150, 132, 132) !important;
+}
+
+.ul{
+  margin-bottom: 25px;
+}
+
+.agree{
+  float: right;
+}
+
+.chose{
+  text-decoration: none !important;
+}
+
+.casteDiv{
+  height: 100vh;
+  background-color: #F9E4C8;
+  padding: 20% 40px 0px 40px !important;
+}
+
+.input{
+  border: none !important;
+  outline: none;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Dropdown */
+.dropbtn {
+  background-color: white !important;
+  color: rgb(110, 102, 102);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 4px;
+  display: block !important;
+  width: 100%;
+  text-align: left;
+  border-color: rgb(110, 102, 102) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+select > option {
+  padding: 30px;
+  color: black !important;
+}
+
+.tick{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.warning{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.login{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  20%;
+}
